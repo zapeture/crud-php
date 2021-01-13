@@ -1,0 +1,5 @@
+{
+  "phpserver.browser": "chrome",
+  "phpserver.phpConfigPath": "C:\\xampp\\php\\php.ini",
+  "phpserver.phpPath": "C:\\xampp\\php\\php.exe"
+}

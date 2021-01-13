@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+body {margin:0;
+  font-family: 'Roboto Mono', monospace;
+  background-image:url(/images/pexels-polina-zimmerman-3747505.jpg);
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.mnavbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.mnavbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.mnavbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.mnavbar a.active {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.centralize{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* Form */
+
+a {
+
+ text-decoration: none;
+
+}
+
+.container1 ,.container2 {
+  /* 
+  -Remember, margin: auto on left and right will center a block element 
+  -I would also set a "max-width" for responsiveness
+  -May want to add some padding
+  */
+  margin-top: 60px;
+  margin-left: 30px auto;
+  max-width: 400px;
+  padding: 20px;
+  float: left;
+}
+
+.form-wrap {
+  /* 
+    This is the white area around the form and heading, etc
+  */
+ background: white;
+ padding: 15px 40px;
+ color: #333;
+  
+}
+
+.form-wrap h1,
+.form-wrap p {
+  /* 
+    May want to center these
+  */
+  text-align: center;
+}
+
+.form-wrap .form-group {
+  /* 
+    Each label, input is wrapped in .form-group
+  */
+  margin-top: 15px;
+}
+
+.form-wrap .form-group label {
+  /* 
+    Label should be turned into a block element
+  */
+  display: block;
+  color: #666;
+}
+
+.form-wrap .form-group input ,#position,select {
+  /* 
+    Inputs should reach accross the .form-wrap 100% and have some padding
+  */
+  width: 100%;
+  padding: 10px;
+  border: #ddd solid 1px;
+  border-radius: 5px;
+}
+
+.form-wrap button {
+  /* 
+    Button should wrap accross 100% and display as block
+    Background color for button is #49c1a2
+  */
+  display: block;
+  width: 100%;
+  background-color:black ;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+  border-radius: 6px;
+}
+
+.form-wrap button:hover {
+  /* 
+    Hover background color for button is #37a08e
+  */
+  background-color:grey ;
+}
+
+/* Image with butoon */
+.card{
+  float: left;
+  margin-top: 80px;
+  margin-left: 25px;
+  z-index: -1;
+}
+
+footer {
+  /* 
+  Should be centered
+ */
+ text-align: center;
+ margin-top: 10px;
+ color: #333;
+}
+
+footer a {
+ 
+  color:red ;
+
+}
+
+.error{
+
+  color: red;
+
+}
+
+.container4{
+  margin: 80px 20px;
+  padding: 20px;
+  background-color: #333;
+  max-width: 30%;
+  color: white;
+  border-radius:5px ;
+  text-align: center;
+  float: left;
+}
+
+.container6{
+  margin: 80px 20px;
+  padding: 20px;
+  max-width: 30%;
+  color: white;
+  text-align: center;
+  float: left;
+  margin:30px auto;
+}
+
+.verification p{
+width: 100%;
+color: white;
+
+}
+
+.redlogout {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin:20px;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.redlogout:hover {
+  background-color:#333;
+  color: white;
+  border: 1px solid red;
+}
+#user_type {
+	height: 40px;
+	width: 98%;
+	padding: 5px 10px;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+
+.alert ,.alert{
+
+  margin-top:50px ;
+
+}
+
+.profile_info {
+	display: block; 
+  margin: 5px;
+  width: 20% ;
+  color: white;
+  font-size: 22px;
+  background-color: #333;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  float: left;
+}
+.profile_info:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+

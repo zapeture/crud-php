@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 // pi
 echo(pi());// returns the value of Pi 22/7
 echo "<br>";
@@ -25,7 +25,7 @@ echo "<br>";
 // random number generator
 echo(rand());
 echo "<br>";
-echo "<br>";
+echo "<br>"; 
 // random number generator with constraints
 echo(rand(10, 100));
 echo "<br>";
